@@ -1,6 +1,6 @@
 // 🏆 Completed Task List with GitHub Links
 const tasks = [
-    { title: "Landing Page", link: "https://github.com/TanmayT134/OCTANET_FEBRUARY.git" },
+    { title: "Task 1 - Landing Page", link: "https://github.com/TanmayT134/OCTANET_FEBRUARY.git" },
     { title: "Incoming task...", link: "*" }
 ];
 
