@@ -1,10 +1,10 @@
-// 🏆 Completed Task List with GitHub Links
+//  Completed Task List with GitHub Links
 const tasks = [
     { title: "Task 1 - Landing Page", link: "https://github.com/TanmayT134/OCTANET_FEBRUARY.git" },
     { title: "Incoming task...", link: "*" }
 ];
 
-// 🚀 Dynamically Load Tasks
+//  Dynamically Load Tasks
 function loadTasks() {
     const taskList = document.getElementById("taskList");
 
@@ -20,5 +20,5 @@ function loadTasks() {
     });
 }
 
-// 🎬 Load tasks on page load
+//  Load tasks on page load
 document.addEventListener("DOMContentLoaded", loadTasks);
