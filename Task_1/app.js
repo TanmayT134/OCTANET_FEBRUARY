@@ -1,4 +1,4 @@
-//  Completed Task List with GitHub Links
+//  Completed Task List with Links
 const tasks = [
     { title: "Task 1 - Landing Page", link: "https://github.com/TanmayT134/OCTANET_FEBRUARY.git" },
     { title: "Incoming task...", link: "*" }
@@ -14,7 +14,7 @@ function loadTasks() {
         taskElement.textContent = task.title;
         taskElement.classList.add("task-card");
         taskElement.target = "_blank";
-        taskElement.style.animationDelay = `${index * 0.2}s`; // Smooth delay effect
+        taskElement.style.animationDelay = `${index * 0.2}s`;
 
         taskList.appendChild(taskElement);
     });
